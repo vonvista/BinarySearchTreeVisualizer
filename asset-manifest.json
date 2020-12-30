@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BinarySearchTreeVisualizer/static/css/main.e0257af9.chunk.css",
+    "main.js": "/BinarySearchTreeVisualizer/static/js/main.3db93133.chunk.js",
+    "main.js.map": "/BinarySearchTreeVisualizer/static/js/main.3db93133.chunk.js.map",
+    "runtime-main.js": "/BinarySearchTreeVisualizer/static/js/runtime-main.5e72dfb4.js",
+    "runtime-main.js.map": "/BinarySearchTreeVisualizer/static/js/runtime-main.5e72dfb4.js.map",
+    "static/js/2.9207f5d5.chunk.js": "/BinarySearchTreeVisualizer/static/js/2.9207f5d5.chunk.js",
+    "static/js/2.9207f5d5.chunk.js.map": "/BinarySearchTreeVisualizer/static/js/2.9207f5d5.chunk.js.map",
+    "static/js/3.cf343131.chunk.js": "/BinarySearchTreeVisualizer/static/js/3.cf343131.chunk.js",
+    "static/js/3.cf343131.chunk.js.map": "/BinarySearchTreeVisualizer/static/js/3.cf343131.chunk.js.map",
+    "index.html": "/BinarySearchTreeVisualizer/index.html",
+    "static/css/main.e0257af9.chunk.css.map": "/BinarySearchTreeVisualizer/static/css/main.e0257af9.chunk.css.map",
+    "static/js/2.9207f5d5.chunk.js.LICENSE.txt": "/BinarySearchTreeVisualizer/static/js/2.9207f5d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e72dfb4.js",
+    "static/js/2.9207f5d5.chunk.js",
+    "static/css/main.e0257af9.chunk.css",
+    "static/js/main.3db93133.chunk.js"
+  ]
+}
