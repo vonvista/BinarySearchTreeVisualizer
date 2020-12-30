@@ -34,7 +34,7 @@ function TreeChart({ data, pathData, traversalData, reloadData }) {
 
     // transform hierarchical data
     const root = hierarchy(data);
-    const treeLayout = tree().size([width, height * 3]);
+    const treeLayout = tree().size([width, height * 2]);
 
     const linkGenerator = linkHorizontal()
       .x(link => link.x)
