@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+svg {
+  overflow: visible;
+  display: block;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.controls {
+  display: inline-block;
+  background-color: #171e24;
+  padding: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+
+  color : #0e5e07; /*TEST VARIABLE FOR THE TREE CHART D3 JS */
+
+  color: white;
+
+}
+
+  
+
+#root {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: stretch;
+  /* justify-content: center; */
+  height: 100vh;
+  /* padding: 0 50px 150px; */
+  /* text-align: center; */
+  box-sizing: border-box;
+  background-color: #1c2a35;
+}
+
+/* button {
+  display: block;
+  float: left;
+  width: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0 auto;
+} */
+
+#doOperation {
+  display: none;
+}
+
+.reset_button {
+  background-color:#882522;
+}
+
+button {
+  background-color:#29597e;
+  border: none;
   color: white;
+  padding: 2vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+  margin: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  background-color:#29597e;
+  border: none;
+  color: white;
+  padding: 1.7vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+  margin: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=submit] {
+  background-color:#1c2a35;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+}
+
+circle {
+  z-index: 2;
 }
